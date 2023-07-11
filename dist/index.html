@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+<body>
+    <header class="bg-black">
+        <div class="container p-[15px]">
+            <div class="header__wrapper flex justify-between items-center">
+                <div class="header__logo flex gap-1">
+                    <a href="#" class="text-[13px]"><i class="fa-brands fa-spotify fa-2xl" style="color: white;"></i></a>
+                    <a href="#"><h2 class="text-white font-semibold">Spotify</h2></a>
+                </div>
+                <div class="header__nav">
+                    <a href="#" class="flex flex-col gap-1">
+                        <span class="w-5 h-[2.7px] bg-white rounded-[1px]"></span>
+                        <span class="w-5 h-[2.7px] bg-white rounded-[1px]"></span>
+                        <span class="w-5 h-[2.7px] bg-white rounded-[1px]"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner bg-light-indigo">
+        <div class="container px-[15px] py-[40px]">
+            <div class="banner__wrapper flex flex-col items-center">
+                <div class="banner__contents flex flex-col gap-7 md:gap-5">
+                    <h1 class="text-accent-blue text-[28px] font-bold md:text-[40px]">Get Premium free for 2 months</h1>
+                    <p class="text-accent-blue text-[18.5px] font-semibold md:text-[24px]">Only $9.99/month after. Cancel anytime.</p>
+                    <div class="cta flex flex-col gap-[10px] pt-6 pb-3 items-center md:flex-row">
+                        <a href="#" class="text-light-indigo bg-accent-blue text-center py-[16px] w-full rounded-full text-[14px] font-bold hover:scale-[1.04] md:w-40">GET STARTED</a>
+                        <a href="#" class="text-accent-blue bg-light-indigo text-center py-[14px] w-full rounded-full border-accent-blue border-[2px] text-[14px] font-bold hover:scale-[1.04] hover:bg-[#D9F5DC] md:w-40">VIEW PLANS</a>
+                    </div>
+                    <P class="text-accent-blue text-[11px]"><a href="#" class="underline">Terms and conditions apply</a>. Individual plan only. $9.99/month after. 2 months free not available for users who have already tried Premium. Offer ends July 10, 2023.</P>
+                </div>
+
+                <img src="../images/banner_flamingo.png" alt="" class="w-80 mt-20 mb-16 lg:w-96">
+            </div>
+        </div>
+    </section>
+
+    <section class="premium">
+        <div class="container px-[15px] pt-[30px] pb-[80px]">
+            <div class="premium__wrapper flex flex-col items-center gap-8">
+                <h1 class="text-[28px] font-bold">Why go Premium?</h1>
+
+                <div class="premium__offers w-full flex flex-col gap-[60px]">
+                    <div class="offers__firsthalf flex flex-col gap-[60px]">
+                        <div class="premium__feature flex gap-5">
+                            <img src="../images/premium_downloadmusic.png" alt="" class="h-[103px]">
+                            <div class="feature__details flex flex-col justify-center gap-2 mb-3">
+                                <h3 class="text-[21px] font-bold">Download music.</h3>
+                                <p>Listen anywhere.</p>
+                            </div>
+                        </div>
+                        <div class="premium__feature flex gap-5">
+                            <img src="../images/premium_adfree.png" alt="" class="h-[103px]">
+                            <div class="feature__details flex flex-col justify-center gap-2 mb-3">
+                                <h3 class="text-[21px] font-bold">Ad-free music listening.</h3>
+                                <p>Enjoy nonstop music.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offers__secondhalf flex flex-col gap-[60px]">
+                        <div class="premium__feature flex gap-5">
+                            <img src="../images/premium_anysong.png" alt="" class="h-[103px]">
+                            <div class="feature__details flex flex-col justify-center gap-2 mb-3">
+                                <h3 class="text-[21px] font-bold">Play any song.</h3>
+                                <p>Even on mobile.</p>
+                            </div>
+                        </div>
+                        <div class="premium__feature flex gap-5">
+                            <img src="../images/premium_unliskip.png" alt="" class="h-[103px]">
+                            <div class="feature__details flex flex-col justify-center gap-2 mb-3">
+                                <h3 class="text-[21px] font-bold">Unlimited skips.</h3>
+                                <p>Just hit next.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="premiumAccount bg-[#efefef]">
+        <div class="container px-[15px] pt-[30px] pb-[65px]">
+            <div class="premiumAccount__wrapper flex flex-col items-center gap-8">
+                <div class="premiumAccount__paymentoptions flex flex-col gap-3 mx-7 items-center ">
+                    <h1 class="text-[28px] font-bold">Pick your Premium</h1>
+                    <p class="text-center">Listen without limits on your phone, speaker, and other devices.</p>
+                    <div class="paymentMethods flex gap-2">
+                        <img src="../images/payment_visa.svg" alt="">
+                        <img src="../images/payment_cirrus.svg" alt="">
+                        <img src="../images/payment_amex.svg" alt="">
+                        <img src="../images/payment_amex.svg" alt="">
+                        <img src="../images/payment_paypal.png" alt="" class="h-[16px]">
+                    </div>
+                </div>
+                
+                <div class="premiumAccount__contents flex flex-col gap-4">
+                    <div class="premiumAccount__offer bg-white p-5 flex flex-col rounded-[11px] shadow-md shadow-black gap-5">
+                        <div class="offer__accountType flex flex-col">
+                            <h3 class="text-[14px] font-bold bg-[#0d72ea] text-white text-center w-fit px-[6px] py-[3px] rounded-[3px]">2 months free</h3>
+                            <h2 class="text-[24px] font-bold">Individual</h2>
+                            <p>$9.99/month after offer period<br/>1 account</p>
+                        </div>
+                        <span class="bg-[#787878] w-full h-[1.5px] rounded-[2px] opacity-80"></span>
+                        <div class="features">
+                            <table>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Ad-free music listening</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Play anywhere - even offline</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>On-demand playback</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="text-white bg-[#191414] text-center py-[14px] w-full rounded-full text-[14px] font-bold hover:scale-[1.04]">GET STARTED</a>
+                        <p class="text-[12px]"><a href="#" class="underline">Terms and conditions apply</a>. Individual plan only. $9.99/month after. 2 months free not available for users who have already tried Premium. Offer ends July 10, 2023.</p>
+                    </div>
+                    <div class="premiumAccount__offer bg-white p-5 flex flex-col rounded-[11px] shadow-md shadow-black gap-5">
+                        <div class="offer__accountType flex flex-col">
+                            <h3 class="text-[14px] font-bold bg-[#0d72ea] text-white text-center w-fit px-[6px] py-[3px] rounded-[3px]">1 month free</h3>
+                            <h2 class="text-[24px] font-bold">Duo</h2>
+                            <p>$12.99/month after offer period<br/>2 accounts</p>
+                        </div>
+                        <span class="bg-[#787878] w-full h-[1.5px] rounded-[2px] opacity-80"></span>
+                        <div class="features">
+                            <table>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>2 Premium accounts for a couple under one roof</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Ad-free music listening, play offline, on-demand playback</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="text-white bg-[#191414] text-center py-[14px] w-full rounded-full text-[14px] font-bold hover:scale-[1.04]">GET STARTED</a>
+                        <p class="text-[12px]"><a href="#" class="underline">Terms and conditions apply</a>. 1 month free not available for users who have already tried Premium.</p>
+                    </div>
+                    <div class="premiumAccount__offer bg-white p-5 flex flex-col rounded-[11px] shadow-md shadow-black gap-5">
+                        <div class="offer__accountType flex flex-col">
+                            <h3 class="text-[14px] font-bold bg-[#0d72ea] text-white text-center w-fit px-[6px] py-[3px] rounded-[3px]">1 month free</h3>
+                            <h2 class="text-[24px] font-bold">Family</h2>
+                            <p>$15.99/month after offer period<br/>6 accounts</p>
+                        </div>
+                        <span class="bg-[#787878] w-full h-[1.5px] rounded-[2px] opacity-80"></span>
+                        <div class="features">
+                            <table>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>6 Premium accounts for family members living under one roof</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Block explicit music</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Ad-free music listening, play offline, on-demand playback</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Spotify Kids: a separate app made just for kids</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="text-white bg-[#191414] text-center py-[14px] w-full rounded-full text-[14px] font-bold hover:scale-[1.04]">GET STARTED</a>
+                        <p class="text-[12px]"><a href="#" class="underline">Terms and conditions apply</a>. 1 month free not available for users who have already tried Premium.</p>
+                    </div>
+                    <div class="premiumAccount__offer bg-white p-5 flex flex-col rounded-[11px] shadow-md shadow-black gap-5">
+                        <div class="offer__accountType flex flex-col">
+                            <h3 class="text-[14px] font-bold bg-[#0d72ea] text-white text-center w-fit px-[6px] py-[3px] rounded-[3px]">1 month free</h3>
+                            <h2 class="text-[24px] font-bold">Student</h2>
+                            <p>$4.99/month after offer period<br/>1 account</p>
+                        </div>
+                        <span class="bg-[#787878] w-full h-[1.5px] rounded-[2px] opacity-80"></span>
+                        <div class="features">
+                            <table>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Hulu (With Ads) plan</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Ad-free music listening</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>Play anywhere - even offline</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-check text-2xl" style="color: #2d2d2d;"></i></td>
+                                    <td>On-demand playback</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="#" class="text-white bg-[#191414] text-center py-[14px] w-full rounded-full text-[14px] font-bold hover:scale-[1.04]">GET STARTED</a>
+                        <p class="text-[12px]">Offer currently includes access to Hulu (With Ads) plan, subject to eligibility. Available only to students at an accredited higher education institution. 1 month free only open to higher education students who haven't already tried Premium.<a href="#" class="underline">Terms and conditions apply</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black">
+        <div class="container p-[15px] pb-6 text-white">
+            <div class="footer__wrapper flex flex-col gap-7 pt-9">
+                <div class="footer__logo flex gap-1 mb-4">
+                    <a href="#" class="text-[13px]"><i class="fa-brands fa-spotify fa-2xl" style="color: white;"></i></a>
+                    <a href=""><h2 class="text-white font-semibold">Spotify</h2></a>
+                </div>
+                <div class="footer__contents flex flex-col gap-16 mb-24">
+                    <div class="contents__company flex flex-col gap-5">
+                        <h3 class="text-[14px] font-semibold text-[#919496]">COMPANY</h3>
+                        <ul class="flex flex-col gap-4">
+                            <li><a href="#" class="hover:text-accent-green">About</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Jobs</a></li>
+                            <li><a href="#" class="hover:text-accent-green">For the record</a></li>
+                        </ul>
+                    </div>
+                    <div class="contents__communities flex flex-col gap-5">
+                        <h3 class="text-[14px] font-semibold text-[#919496]">COMMUNITIES</h3>
+                        <ul class="flex flex-col gap-4">
+                            <li><a href="#" class="hover:text-accent-green">For Artists</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Developers</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Advertising</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Investors</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Vendors</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Spotify for work</a></li>
+                        </ul>
+                    </div>
+                    <div class="contents__links flex flex-col gap-5">
+                        <h3 class="text-[14px] font-semibold text-[#919496]">USEFUL LINKS</h3>
+                        <ul class="flex flex-col gap-4">
+                            <li><a href="#" class="hover:text-accent-green">Support</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Web Player</a></li>
+                            <li><a href="#" class="hover:text-accent-green">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__nav flex gap-4">
+                    <a href="#"><i class="fa-brands fa-instagram text-[27px] bg-[#222326] px-[11px] py-[10px] rounded-full hover:text-accent-green"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter text-[27px] bg-[#222326] px-[10px] py-[10px] rounded-full hover:text-accent-green"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f text-[27px] bg-[#222326] px-[15px] py-[10px] rounded-full hover:text-accent-green"></i></a>
+                </div>
+
+                <div class="footer__lowercontents text-[#777777] text-[10px] font-semibold flex flex-col gap-4">
+                    <div class="footer__USAlink flex w-full justify-end">
+                        <a href="#" class="flex gap-2">
+                            <img src="../images/footer-globe.svg" alt="">
+                            <p  class="hover:text-accent-green">USA</p>
+                        </a>
+                    </div>
+                    <div class="footer__sitelinks flex justify-between">
+                        <div class="sitelinks__links flex gap-6">
+                            <a href="#"><p class="hover:text-accent-green">Legal</p></a>
+                            <a href="#"><p class="hover:text-accent-green">Privacy Center</p></a>
+                            <a href="#"><p class="hover:text-accent-green">Privacy Policy</p></a>
+                            <a href="#"><p class="hover:text-accent-green">Cookies</p></a>
+                        </div>
+                        <h4>© 2023 Spotify AB</h4>
+                    </div>
+                    <div class="footer__sitelinks flex gap-6">
+                        <a href="#"><p class="hover:text-accent-green">About Ads</p></a>
+                        <a href="#"><p class="hover:text-accent-green">Accessibility</p></a>
+                        <a href="#"><p class="hover:text-accent-green">Notice at Collection</p></a>
+                    </div>
+                    <div class="lowercontents__privacychoices flex gap-1">
+                        <a href="#"><p class="hover:text-accent-green">Your Privacy Choices</p></a>
+                        <img src="../images/footer-toggleswitchiccon.svg" alt="" class="h-3 justify-center">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
